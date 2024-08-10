@@ -6,7 +6,7 @@ services:
     container_name: baserow
     image: baserow/baserow:latest
     environment:
-      BASEROW_PUBLIC_URL: 'baserow.automateme.ru'
+      BASEROW_PUBLIC_URL: 'https://baserow.automateme.ru'
     ports:
       - "8180:80"
       - "8143:443"
