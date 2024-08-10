@@ -4,12 +4,12 @@ version: "3.4"
 services:
   baserow:
     container_name: baserow
-    image: baserow/baserow:1.26.1
+    image: baserow/baserow:latest
     environment:
       BASEROW_PUBLIC_URL: 'https://baserow.automateme.ru'
     ports:
-      - "80:80"
-      - "443:443"
+      - "80:8180"
+      - "443:8143"
     volumes:
       - baserow_data:/baserow/data
 volumes:
