@@ -8,8 +8,8 @@ services:
     environment:
       BASEROW_PUBLIC_URL: 'https://baserow.automateme.ru'
     ports:
-      - "80:8180"
-      - "443:8143"
+      - "8180:80"
+      - "8143:443"
     volumes:
       - baserow_data:/baserow/data
 volumes:
