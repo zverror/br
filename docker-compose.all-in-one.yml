@@ -4,9 +4,9 @@ version: "3.4"
 services:
   baserow:
     container_name: baserow
-    image: baserow/baserow:1.30.1
+    image: baserow/baserow:latest
     environment:
-      BASEROW_PUBLIC_URL: 'http://localhost'
+      BASEROW_PUBLIC_URL: 'https://baserow.zverserver.duckdns.org'
     ports:
       - "80:80"
       - "443:443"
