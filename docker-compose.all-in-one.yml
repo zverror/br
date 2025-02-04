@@ -8,8 +8,8 @@ services:
     environment:
       BASEROW_PUBLIC_URL: 'https://baserow.zverserver.duckdns.org'
     ports:
-      - "80:80"
-      - "443:443"
+      - "4880:80"
+      - "4843:443"
     volumes:
       - baserow_data:/baserow/data
 volumes:
