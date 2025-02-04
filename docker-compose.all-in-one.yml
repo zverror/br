@@ -6,7 +6,7 @@ services:
     container_name: baserow
     image: baserow/baserow:latest
     environment:
-      BASEROW_PUBLIC_URL: 'https://baserow.zverserver.duckdns.org'
+      BASEROW_PUBLIC_URL: 'https://baserow.automateme.ru'
     ports:
       - "4880:80"
       - "4843:443"
