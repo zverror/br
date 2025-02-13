@@ -12,5 +12,8 @@ services:
       - "8143:443"
     volumes:
       - baserow_data:/baserow/data
+    dns:
+      - 83.220.169.155
+      - 212.109.195.93
 volumes:
   baserow_data:
